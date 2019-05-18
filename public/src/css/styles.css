@@ -1,0 +1,61 @@
+/* --- General --- */
+html, body {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 16px;
+}
+
+/* --- Navigation --- */
+#desktopNav {
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+#desktopNav .nav-logo-hidden {
+  display: none;
+}
+
+#desktopNav ul {
+  display: block;
+  position: absolute;
+  float: right;
+  right: 1.5rem;
+}
+
+#desktopNav ul > li {
+  display: inline-block;
+  list-style-type: none;
+  line-height: 60px;
+  margin-left: 1.5rem;
+}
+
+#desktopNav li a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+/* --- Header Banner Desktop --- */
+#header-banner {
+  background: url('../img/headerBanner.png') no-repeat;
+  background-size: contain;
+  padding-top: 56.25%;
+  margin: 0 -16px;
+  background-color: lightgreen;
+}
+
+/* --- Style Section --- */
+.section-cap {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.section-cap-underline {
+  border: 0.75px solid #000;
+  width: 50px;
+
+
+
+}
