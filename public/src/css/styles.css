@@ -12,10 +12,6 @@
     z-index: 1000;
   }
 
-  #desktopNav .nav-logo-hidden {
-    display: none;
-  }
-
   #desktopNav ul {
     display: block;
     position: absolute;
@@ -35,6 +31,16 @@
     text-decoration: none;
   }
 
+  #desktopNav .nav-logo {
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #desktopNav .nav-logo-hidden {
+        display: none;
+  }
+
 
 /* --- Header Banner Desktop --- */
   #header-banner {
@@ -51,6 +57,15 @@
 
   .red-orange {
     background: url('../img/Logo_Test_V1_Umkehrung.png') no-repeat, linear-gradient(#ff5f0a, #d13531);
+  }
+
+/* --- Shop --- */
+  #polyShop {
+    padding-top: 60px;
+  }
+
+  .sprd-header {
+    display: none !important;
   }
 
 /* --- Style Section --- */
@@ -72,6 +87,26 @@
 
   .product-pic {
     margin: 0;
+    height: 483px;
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+
+  .pic-panther {
+    background: url('https://via.placeholder.com/300x483') no-repeat;
+  }
+
+  .pic-fox {
+    background: url('https://via.placeholder.com/300x483') no-repeat;
+  }
+
+  .pic-monkey {
+    background: url('https://via.placeholder.com/300x483') no-repeat;
+  }
+
+  .pic-panther:hover {
+    background: url('src/img/prodMonkey.png');
   }
 
   .product-pic img {
@@ -88,6 +123,11 @@
   .product-txt a {
     text-decoration: none;
     color: #000;
+  }
+
+/* --- Shop --- */
+  #shop {
+    margin-top: 0px;
   }
 
 /* --- Footer --- */
@@ -111,14 +151,11 @@
     list-style-type: none;
     margin: 4px 0;
   }
+  .footer-row li a {
+    color: #000;
+  }
 
   #copyright {
     text-align: center;
     margin-top: 60px;
   }
-
-
-  /* --- Shop --- */
-    #shop {
-      margin-top: 0px;
-    }

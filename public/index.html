@@ -16,6 +16,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+
 </head>
 <body>
   <!-- Navigation Desktop -->
@@ -63,18 +64,18 @@
 
       <div class="row">
         <div class="col-lg-4">
-          <figure class="product-pic">
-            <img src="https://via.placeholder.com/300x483" alt="placeholder">
+          <figure class="product-pic pic-panther">
+          <!--  <img src="https://via.placeholder.com/300x483" alt="placeholder"> -->
           </figure>
         </div>
         <div class="col-lg-4">
-          <figure class="product-pic">
-            <img src="https://via.placeholder.com/300x483" alt="placeholder">
+          <figure class="product-pic pic-fox">
+          <!--  <img src="https://via.placeholder.com/300x483" alt="placeholder"> -->
           </figure>
         </div>
         <div class="col-lg-4">
-          <figure class="product-pic">
-            <img src="https://via.placeholder.com/300x483" alt="placeholder">
+          <figure class="product-pic pic-monkey">
+          <!--  <img src="https://via.placeholder.com/300x483" alt="placeholder"> -->
           </figure>
         </div>
       </div>
@@ -133,8 +134,8 @@
           <div class="footer-row">
             <h4> Social. </h4>
             <ul>
-              <li><a href="#"></a> Instagram </li>
-              <li><a href="#"></a> Facebook </li>
+              <li><a href="#"> Instagram </a></li>
+              <li><a href="#"> Facebook </a></li>
             </ul>
           </div>
         </div>
@@ -142,7 +143,7 @@
           <div class="footer-row">
             <h4> Contact. </h4>
             <ul>
-              <li><a href="mailto:lisa.hezel93@gmail.com"></a> E-Mail </li>
+              <li><a href="mailto:lisa.hezel93@gmail.com"> E-Mail </a></li>
             </ul>
           </div>
         </div>
@@ -150,8 +151,8 @@
           <div class="footer-row">
             <h4> Legal. </h4>
             <ul>
-              <li><a href="impressum.pdf"></a> Impressum </li>
-              <li><a href="#"></a> Datenschutz </li>
+              <li><a href="impressum.pdf"> Impressum </a></li>
+              <li><a href="#"> Datenschutz </a></li>
             </ul>
           </div>
         </div>
@@ -167,12 +168,17 @@
   </footer>
 
     <script>
-     $(window).on('click', function() {
+    $(window).on('click', function() {
       if ($("#header-banner").hasClass("blue-green")) {
-       $( "#header-banner" ).addClass( "red-orange" ).removeClass( "blue-green" );
-     } else if ($("#header-banner").hasClass("red-orange")) {
-       $( "#header-banner" ).addClass( "blue-green" ).removeClass( "red-orange" );
-     }
+         $( "#header-banner" ).addClass( "red-orange" ).removeClass( "blue-green" );
+      } else if ($("#header-banner").hasClass("red-orange")) {
+         $( "#header-banner" ).addClass( "blue-green" ).removeClass( "red-orange" );
+      }
     });
+
+
     </script>
-</body>
+
+  </body>
+
+</html>
