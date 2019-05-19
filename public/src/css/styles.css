@@ -31,18 +31,26 @@
   }
 
   #desktopNav li a {
-    color: #000;
+    color: #FFF;
     text-decoration: none;
   }
 
 
 /* --- Header Banner Desktop --- */
   #header-banner {
-    background: url('../img/headerBanner.png') no-repeat;
+    /* background: url('../img/headerBannerUmkehrung.png') no-repeat; */
+    /* colorful versions: linear-gradient(#ff5f0a, #d13531) | linear-gradient(#093bff, #08a500) */
     background-size: contain;
     padding-top: 56.25%;
     margin: 0 -16px;
-    background-color: lightgreen;
+  }
+
+  .blue-green {
+    background: url('../img/Logo_Test_V1_Umkehrung.png') no-repeat, linear-gradient(#093bff, #08a500);
+  }
+
+  .red-orange {
+    background: url('../img/Logo_Test_V1_Umkehrung.png') no-repeat, linear-gradient(#ff5f0a, #d13531);
   }
 
 /* --- Style Section --- */

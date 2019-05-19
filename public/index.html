@@ -28,7 +28,8 @@
         <div class="col-lg-6">
           <ul>
             <li><a href="#style-section"> STYLES. </a></li>
-            <li><a href="shop.html"> SHOP. </a></li>
+            <li><a href="shop.html"> SPREADSHIRT. </a></li>
+            <li><a href="http://teespring.com/stores/polybeasts"> TEESPRING. </a></li>
           </ul>
         </div>
       </div>
@@ -40,7 +41,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12">
-          <div id="header-banner"></div>
+          <div id="header-banner" class="blue-green"></div>
         </div>
       </div>
     </div>
@@ -164,4 +165,14 @@
     </div>
 
   </footer>
+
+    <script>
+     $(window).on('click', function() {
+      if ($("#header-banner").hasClass("blue-green")) {
+       $( "#header-banner" ).addClass( "red-orange" ).removeClass( "blue-green" );
+     } else if ($("#header-banner").hasClass("red-orange")) {
+       $( "#header-banner" ).addClass( "blue-green" ).removeClass( "red-orange" );
+     }
+    });
+    </script>
 </body>
